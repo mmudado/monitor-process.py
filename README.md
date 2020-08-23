@@ -24,6 +24,8 @@ This script should be run in linux's cron, every 1 min (this it the max. granula
     --host-addr 0.0.0.0 \
     --port 3000
 
+Example of script.sh provided by the user
+
 ## Before you begin
 
 One might want to wrap the "script.sh" that runs the process in a background terminal, such as screen or tmux. Tmux's example is provided:
@@ -46,7 +48,8 @@ it already exists or not:
 	    tmux select-pane -t 'cardano:node.0'
 	    tmux send-keys -t 'cardano:node.0' "$HOME/script.sh" Enter
 	fi
-
+Example of run-script-background.sh
+https://github.com/mmudado/monitor-process.py.git
 Make sure the scripts are runnable by typing:
 
     chmod +x script.sh
