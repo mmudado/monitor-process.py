@@ -1,2 +1,2 @@
-# monitor_process.py
+# monitor-process.py
 checks process pid - runs process if pid is absent
