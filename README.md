@@ -1,7 +1,7 @@
 # monitor-process.py
 
 This script is intended to check if a given process is running by using pgrep to retrieve its PID from process name.
-If the PID is absent, it runs a script.
+If the PID is absent, it runs a script provided by the user to start the process again.
 
 ## Purpose of the script
 
