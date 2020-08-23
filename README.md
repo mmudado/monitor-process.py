@@ -17,12 +17,12 @@ This script should be run in linux's cron, every 1 min (this it the max. granula
  it runs a script provided by the user. E.g: "script.sh" is a common script used to run "cardano-node" in a relay node, provided as follows:
 
     /usr/bin/nice -19 cardano-node run \
-        --topology files/mainnet-topology.json \
-	--database-path db \
-	--socket-path db/node.socket \
-	--config files/mainnet-config.json \
-	--host-addr 0.0.0.0 \
-	--port 3000
+    --topology files/mainnet-topology.json \
+    --database-path db \
+    --socket-path db/node.socket \
+    --config files/mainnet-config.json \
+    --host-addr 0.0.0.0 \
+    --port 3000
 
 ## Before you begin
 
