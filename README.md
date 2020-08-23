@@ -70,7 +70,8 @@ Insert the line to run monitor-process.py every 1 minute:
 
     */1 * * * * /usr/bin/python3 monitor-process.py -s run-script-background.sh -p cardano-node -v >> monitor.log 2>&1
 
-Make sure you you have "python3" and "pgrep" installed in default paths (script was written in a Ubuntu OS). Python3 should reside in: "/usr/bin/python3", pgrep in "/usr/bin/pgrep"
+Make sure you you have "python3" installed in default paths (script was written in a Ubuntu OS).
+Python3 should reside in: "/usr/bin/python3".
 
  **Verify that the variables point to the correct location of these programs in your OS. Change the paths if needed in the "monitor-process.py" script, lines 27 and 28**:
  
