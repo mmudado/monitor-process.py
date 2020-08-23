@@ -23,8 +23,7 @@ This script should be run in linux's cron, every 1 min (this it the max. granula
     --config files/mainnet-config.json \
     --host-addr 0.0.0.0 \
     --port 3000
-
-Example of script.sh provided by the user
+*Example of script.sh provided by the user*
 
 ## Before you begin
 
@@ -48,8 +47,8 @@ it already exists or not:
 	    tmux select-pane -t 'cardano:node.0'
 	    tmux send-keys -t 'cardano:node.0' "$HOME/script.sh" Enter
 	fi
-Example of run-script-background.sh
-https://github.com/mmudado/monitor-process.py.git
+*Example of run-script-background.sh*
+
 Make sure the scripts are runnable by typing:
 
     chmod +x script.sh
