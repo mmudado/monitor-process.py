@@ -1,12 +1,12 @@
 # monitor-process.py
 
 This script is intended to check if a given process is running by using pgrep to retrieve its PID from process name.
-If the PID is absent, it runs a script provided by the user to start the process again.
+If the PID is absent, it runs a script provided by the user to start the process again. 
 
 ## Purpose of the script
 
 If you have a process intended to be run 24/7, and it may die out of a sudden, one might want to monitor this process and 
-run it again whenever it dies.
+run it again whenever it dies - and you don't want or cannot use Linux's Systemd, which would be a better option in this case.
 
 Example: cardano-node is a software run in a Cardano producer node or relay node, part of a stake pool operation. Although cardano-node is stable enough, it may die out of a sudden
 leaving that relay or block producer node not working.
